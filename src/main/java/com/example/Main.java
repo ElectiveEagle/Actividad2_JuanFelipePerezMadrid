@@ -2,13 +2,13 @@ package main.java.com.example;
 
 public class Main {
     public static void main(String[] args) {
-        libro l1 = new libro();
+        Libro l1 = new Libro();
         l1.mostrarDetalles();
 
-        libro l2 = new libro("Harry Potter", "J.K. Rowling");
+        Libro l2 = new Libro("Harry Potter", "J.K. Rowling");
         l2.mostrarDetalles();
 
-        libro l3 = new libro("El Señor de los Anillos", "J.R.R. Tolkien", 1200);
+        Libro l3 = new Libro("El Señor de los Anillos", "J.R.R. Tolkien", 1200);
         l3.mostrarDetalles();
 
         CuentaBancaria cuenta = new CuentaBancaria("Maria", 500);
