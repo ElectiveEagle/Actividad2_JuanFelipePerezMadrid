@@ -1,23 +1,23 @@
 package main.java.com.example;
 
-public class libro {
+public class Libro {
     private String titulo;
     private String autor;
     private int paginas;
 
-    public libro() {
+    public Libro() {
         this.titulo = "Desconocido";
         this.autor = "Anónimo";
         this.paginas = 0;
     }
 
-    public libro(String titulo, String autor) {
+    public Libro(String titulo, String autor) {
         this.titulo = titulo;
         this.autor = autor;
         this.paginas = 0;
     }
 
-    public libro(String titulo, String autor, int paginas) {
+    public Libro(String titulo, String autor, int paginas) {
         this.titulo = titulo;
         this.autor = autor;
         this.paginas = paginas;
